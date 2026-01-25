@@ -1,440 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Farhan Ilyas | DevOps Portfolio</title>
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-          
-    <style>
-        /* --- CSS VARIABLES & RESET --- */
-        :root {
-            --text-primary: #e6edf3;
-            --text-secondary: #8b949e;
-            
-            /* Theme Colors */
-            --devops-blue: #58a6ff;
-            --devops-bg: rgba(88, 166, 255, 0.1); 
-            
-            --lang-pink: #f778ba;
-            --lang-bg: rgba(247, 120, 186, 0.1); 
-            
-            --border-color: #30363d;
-        }
+<div align="center">
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+# Muhammad Farhan Ilyas
+### Aspiring DevOps Engineer | Infrastructure Automator | Cloud-Native Explorer
 
-        body {
-            background-color: #000; /* Pure Black Base */
-            color: var(--text-primary);
-            line-height: 1.6;
-            overflow-x: hidden;
-            position: relative;
-        }
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Courier+New&weight=700&size=28&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=Aspiring+DevOps+Engineer;Infrastructure+Automator;Linux+%26+Docker+Enthusiast;Cloud-Native+Explorer)](https://git.io/typing-svg)
 
-        /* --- VORTEX CANVAS --- */
-        #vortex-canvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1; /* Behind everything */
-        }
+---
 
-        /* --- LAYOUT UTILITIES --- */
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 0 20px;
-            position: relative;
-            z-index: 1; /* Keep content clickable */
-        }
+> 🚀 **Passionate about automating and scaling modern infrastructure.**
+> 🛠️ **Optimizing workflows with CI/CD processes.**
+> ☁️ **Exploring Cloud-Native tools to master the full DevOps lifecycle.**
+> ☸️ **Currently leveling up in Kubernetes & Containerization.**
 
-        section { padding: 70px 0; }
+</div>
 
-        h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            text-align: center;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 0 0 15px rgba(88, 166, 255, 0.8); /* Glow to match background */
-        }
+## 🛠 Technical Arsenal
 
-        h3 {
-            font-size: 1.5rem;
-            margin-bottom: 25px;
-            color: var(--text-secondary);
-            border-left: 4px solid;
-            padding-left: 15px;
-            background: rgba(0,0,0,0.5); /* Readable bg */
-            display: inline-block;
-            padding-right: 10px;
-        }
+### ☁️ DevOps & Cloud Native
+<p align="left">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+</p>
 
-        /* --- HERO SECTION --- */
-        .hero {
-            min-height: 85vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-top: 40px;
-        }
+### 💻 Languages & Web Tech
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
 
-        .hero h1 {
-            font-size: 4.5rem;
-            font-weight: 800;
-            color: #fff;
-            text-shadow: 0 0 20px rgba(88, 166, 255, 0.8);
-            margin-bottom: 10px;
-        }
+---
 
-        .typewriter {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 1.8rem;
-            color: var(--devops-blue);
-            margin-bottom: 30px;
-            font-weight: bold;
-            text-shadow: 0 0 10px rgba(88, 166, 255, 0.4);
-            background: rgba(0,0,0,0.4);
-            display: inline-block;
-            padding: 5px 10px;
-        }
+## 🚀 Journey
 
-        .hero-bullets {
-            list-style: none;
-            margin-top: 20px;
-            max-width: 700px;
-            background: rgba(0, 0, 0, 0.7); /* Darker for readability over vortex */
-            padding: 25px;
-            border-radius: 10px;
-            border: 1px solid var(--border-color);
-            backdrop-filter: blur(3px);
-            box-shadow: 0 0 20px rgba(0,0,0,0.8);
-        }
+| Period | Role | Location |
+| :--- | :--- | :--- |
+| **2024 - 2024** | **Digital Marketing Intern** | Intelect Marketing |
+| **2023 - 2027** | **Bachelor of Computer Science** | Lahore Garrison University |
+| **2021 - 2023** | **Intermediate** | Garrison College for Boys |
 
-        .hero-bullets li {
-            font-size: 1.1rem;
-            color: #ccc;
-            margin-bottom: 12px;
-            padding-left: 25px;
-            position: relative;
-            animation: slideInLeft 0.5s forwards;
-            opacity: 0;
-        }
+---
 
-        .hero-bullets li::before {
-            content: '➜';
-            position: absolute;
-            left: 0;
-            color: var(--devops-blue);
-        }
+<div align="center">
 
-        .hero-bullets li:nth-child(1) { animation-delay: 0.2s; }
-        .hero-bullets li:nth-child(2) { animation-delay: 0.4s; }
-        .hero-bullets li:nth-child(3) { animation-delay: 0.6s; }
-        .hero-bullets li:nth-child(4) { animation-delay: 0.8s; }
+### 📱 Connect with me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/farhan-ilyas-06550630b)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mfarhanmilyas44@gmail.com)
 
-        @keyframes slideInLeft {
-            from { opacity: 0; transform: translateX(-20px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
+📍 **Lahore, Punjab, Pakistan**
 
-        /* --- SKILLS GRID --- */
-        .skills-wrapper { margin-bottom: 50px; }
-
-        .skills-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            justify-content: center;
-        }
-
-        .skill-card {
-            border-radius: 8px;
-            padding: 18px 25px;
-            font-weight: 600;
-            font-size: 1.05rem;
-            color: var(--text-primary);
-            cursor: default;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            min-width: 150px;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
-            /* Ensure readability */
-            backdrop-filter: blur(10px); 
-        }
-
-        .skill-card i { font-size: 1.6rem; transition: 0.3s; }
-
-        /* DEVOPS COLORS (BLUE) */
-        .devops-title { border-color: var(--devops-blue); }
-        .skill-card.devops {
-            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(88, 166, 255, 0.2) 100%);
-            border: 1px solid rgba(88, 166, 255, 0.4);
-            border-left: 4px solid var(--devops-blue);
-        }
-        .skill-card.devops i { color: var(--devops-blue); }
-        .skill-card.devops:hover {
-            transform: translateY(-5px);
-            background: var(--devops-blue);
-            color: #000;
-            box-shadow: 0 0 25px rgba(88, 166, 255, 0.8);
-        }
-        .skill-card.devops:hover i { color: #000; }
-
-        /* LANG COLORS (PINK) */
-        .lang-title { border-color: var(--lang-pink); }
-        .skill-card.lang {
-            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(247, 120, 186, 0.2) 100%);
-            border: 1px solid rgba(247, 120, 186, 0.4);
-            border-left: 4px solid var(--lang-pink);
-        }
-        .skill-card.lang i { color: var(--lang-pink); }
-        .skill-card.lang:hover {
-            transform: translateY(-5px);
-            background: var(--lang-pink);
-            color: #000;
-            box-shadow: 0 0 25px rgba(247, 120, 186, 0.8);
-        }
-        .skill-card.lang:hover i { color: #000; }
-
-        /* --- TIMELINE --- */
-        .timeline { position: relative; max-width: 800px; margin: 0 auto; }
-        .timeline-item { position: relative; padding-left: 40px; margin-bottom: 40px; }
-        .timeline-item::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--border-color); }
-        .timeline-dot { position: absolute; left: -4px; top: 5px; width: 10px; height: 10px; background: var(--devops-blue); border-radius: 50%; box-shadow: 0 0 8px var(--devops-blue); }
-        .timeline-date { font-family: monospace; color: var(--devops-blue); font-size: 0.9rem; background: rgba(0,0,0,0.6); padding: 2px 5px; }
-        .timeline-role { font-size: 1.3rem; font-weight: bold; color: #fff; text-shadow: 0 0 10px rgba(0,0,0,1); }
-        .timeline p, .timeline div { text-shadow: 0 0 5px rgba(0,0,0,0.8); }
-
-        /* --- FOOTER --- */
-        footer {
-            background-color: rgba(0, 0, 0, 0.9);
-            text-align: center;
-            padding: 40px 0;
-            border-top: 1px solid var(--border-color);
-            margin-top: 40px;
-        }
-        .location-badge {
-            display: inline-block;
-            color: var(--text-secondary);
-            margin-bottom: 20px;
-            border: 1px solid var(--border-color);
-            padding: 8px 16px;
-            border-radius: 50px;
-            background: rgba(255,255,255,0.05);
-        }
-        .social-links a { color: var(--text-primary); margin: 0 15px; text-decoration: none; transition: 0.3s; font-size: 1.1rem; }
-        .social-links a:hover { color: var(--devops-blue); }
-
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 3rem; }
-        }
-    </style>
-</head>
-<body>
-
-    <canvas id="vortex-canvas"></canvas>
-
-    <header class="hero container">
-        <h1 class="fade-in">Muhammad Farhan Ilyas</h1>
-        <div class="typewriter">
-            <span id="typing-text"></span><span style="animation:blink 1s infinite">|</span>
-        </div>
-        <ul class="hero-bullets">
-            <li>Passionate about <strong>automating and scaling modern infrastructure</strong>.</li>
-            <li>Optimizing workflows with <strong>CI/CD processes</strong>.</li>
-            <li>Exploring <strong>Cloud-Native tools</strong> to master the full DevOps lifecycle.</li>
-            <li>Currently leveling up in <strong>Kubernetes & Containerization</strong>.</li>
-        </ul>
-    </header>
-
-    <section class="container" id="skills">
-        <h2>Technical Arsenal</h2>
-
-        <div class="skills-wrapper">
-            <h3 class="devops-title">DevOps & Cloud Native</h3>
-            <div class="skills-grid">
-                <div class="skill-card devops"><i class="devicon-linux-plain"></i> Linux (RHEL)</div>
-                <div class="skill-card devops"><i class="devicon-docker-plain"></i> Docker</div>
-                <div class="skill-card devops"><i class="devicon-kubernetes-plain"></i> Kubernetes</div>
-                <div class="skill-card devops"><i class="devicon-jenkins-line"></i> Jenkins</div>
-                <div class="skill-card devops"><i class="devicon-git-plain"></i> Git & GitHub</div>
-                <div class="skill-card devops"><i class="devicon-networkx-plain"></i> Networking</div>
-                <div class="skill-card devops"><i class="devicon-bash-plain"></i> Bash Scripting</div>
-                <div class="skill-card devops"><i class="devicon-azuresqldatabase-plain"></i> CI/CD</div>
-            </div>
-        </div>
-
-        <div class="skills-wrapper">
-            <h3 class="lang-title">Languages & Web Tech</h3>
-            <div class="skills-grid">
-                <div class="skill-card lang"><i class="devicon-python-plain"></i> Python</div>
-                <div class="skill-card lang"><i class="devicon-cplusplus-plain"></i> C++</div>
-                <div class="skill-card lang"><i class="devicon-html5-plain"></i> HTML5</div>
-                <div class="skill-card lang"><i class="devicon-css3-plain"></i> CSS</div>
-                <div class="skill-card lang"><i class="devicon-javascript-plain"></i> JavaScript</div>
-                <div class="skill-card lang"><i class="devicon-json-plain"></i> JSON</div>
-                <div class="skill-card lang"><i class="devicon-mysql-plain"></i> MySQL</div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container" id="timeline">
-        <h2>Journey</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <span class="timeline-date">JUN 2024 - SEP 2024</span>
-                <div class="timeline-role">Digital Marketing Intern</div>
-                <div style="font-style: italic; color: #8b949e;">Intelect Marketing</div>
-                <p style="color: #ccc; margin-top: 5px; font-size: 0.95rem;">
-                    Planned instructions, assessed progress, and provided individualized support.
-                </p>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <span class="timeline-date">NOV 2023 - MAY 2027 (Expected)</span>
-                <div class="timeline-role">Bachelor of Computer Science</div>
-                <div style="font-style: italic; color: #8b949e;">Lahore Garrison University</div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <span class="timeline-date">2021 - 2023</span>
-                <div class="timeline-role">Intermediate</div>
-                <div style="font-style: italic; color: #8b949e;">Garrison College for Boys</div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="location-badge">📍 Lahore, Punjab, Pakistan</div>
-        <div class="social-links">
-            <a href="mailto:mfarhanmilyas44@gmail.com">Email Me</a>
-            <a href="https://www.linkedin.com/in/farhan-ilyas-06550630b" target="_blank">LinkedIn</a>
-        </div>
-        <p style="margin-top: 20px; color: #484f58; font-size: 0.8rem;">&copy; 2026 Muhammad Farhan Ilyas.</p>
-    </footer>
-
-    <script>
-        // 1. TYPING EFFECT
-        const texts = ["Aspiring DevOps Engineer", "Infrastructure Automator", "Linux & Docker Enthusiast", "Cloud-Native Explorer"];
-        let count = 0, index = 0, currentText = "", letter = "";
-        (function type() {
-            if (count === texts.length) { count = 0; }
-            currentText = texts[count];
-            letter = currentText.slice(0, ++index);
-            document.getElementById('typing-text').textContent = letter;
-            if (letter.length === currentText.length) {
-                count++; index = 0; setTimeout(type, 2000); 
-            } else { setTimeout(type, 80); }
-        }());
-
-        // 2. VORTEX BACKGROUND ENGINE (Based on your image)
-        const canvas = document.getElementById('vortex-canvas');
-        const ctx = canvas.getContext('2d');
-        
-        let width, height;
-        let particles = [];
-
-        function resize() {
-            width = canvas.width = window.innerWidth;
-            height = canvas.height = window.innerHeight;
-        }
-        window.addEventListener('resize', resize);
-        resize();
-
-        class Particle {
-            constructor() {
-                this.reset();
-            }
-
-            reset() {
-                this.x = (Math.random() - 0.5) * width; // Random Start X
-                this.y = (Math.random() - 0.5) * height; // Random Start Y
-                this.z = Math.random() * width; // Depth
-                
-                // Color Palette based on your image (Blue/Cyan/White)
-                const colors = ['#0db7ed', '#58a6ff', '#ffffff', '#0044cc'];
-                this.color = colors[Math.floor(Math.random() * colors.length)];
-            }
-
-            update() {
-                // Move "towards" the screen
-                this.z -= 15; // Speed of vortex
-                
-                if (this.z <= 0) {
-                    this.reset();
-                    this.z = width;
-                }
-            }
-
-            draw() {
-                // Perspective projection
-                const x = (this.x / this.z) * width + width / 2;
-                const y = (this.y / this.z) * height + height / 2;
-                
-                // Calculate size based on depth (closer = bigger)
-                const size = (1 - this.z / width) * 4;
-
-                // Draw "Streak" (Line trail)
-                const tailLen = 30 * (1 - this.z / width); // Longer tail when closer
-                
-                ctx.beginPath();
-                // Move to current point
-                ctx.moveTo(x, y);
-                // Draw line "back" into the vortex
-                // We fake the angle by drawing towards center slightly
-                const cx = width/2;
-                const cy = height/2;
-                const angle = Math.atan2(y - cy, x - cx);
-                
-                ctx.lineTo(x - Math.cos(angle) * tailLen, y - Math.sin(angle) * tailLen);
-                
-                ctx.strokeStyle = this.color;
-                ctx.lineWidth = size;
-                ctx.lineCap = 'round';
-                ctx.globalAlpha = (1 - this.z / width); // Fade in as it approaches
-                ctx.stroke();
-                ctx.globalAlpha = 1;
-            }
-        }
-
-        // Create Particles
-        function initParticles() {
-            particles = [];
-            for (let i = 0; i < 400; i++) {
-                particles.push(new Particle());
-            }
-        }
-
-        function animate() {
-            // Draw Black Background with slight fade for trail effect
-            ctx.fillStyle = 'rgba(0, 0, 0, 0.4)'; // The "0.4" leaves slight trails
-            ctx.fillRect(0, 0, width, height);
-
-            particles.forEach(p => {
-                p.update();
-                p.draw();
-            });
-
-            requestAnimationFrame(animate);
-        }
-
-        initParticles();
-        animate();
-    </script>
-</body>
-</html>
+</div>
